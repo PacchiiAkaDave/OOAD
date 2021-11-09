@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Controller">
+      <UniqueIdentifier>{30c2145f-839c-4a8e-904d-dbafcd0e0ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Model">
+      <UniqueIdentifier>{1cbdbaeb-e861-41d1-8681-f18f72faa982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Display">
+      <UniqueIdentifier>{b4fa6e74-9932-47fa-9e2c-b1c488c5779c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\HelpClasses">
+      <UniqueIdentifier>{57f47667-54ff-4545-b3f8-ee2518aa3f81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="FangDenHut.cpp">
+      <Filter>Quelldateien\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="SpielerController.cpp">
+      <Filter>Quelldateien\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Feld.cpp">
+      <Filter>Quelldateien\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Heimatfeld.cpp">
+      <Filter>Quelldateien\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Hut.cpp">
+      <Filter>Quelldateien\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Ruhefeld.cpp">
+      <Filter>Quelldateien\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Spieler.cpp">
+      <Filter>Quelldateien\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Spielfeld.cpp">
+      <Filter>Quelldateien\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="LaufbahnView.cpp">
+      <Filter>Quelldateien\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="StartbereichView.cpp">
+      <Filter>Quelldateien\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Wuerfel.cpp">
+      <Filter>Quelldateien\HelpClasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Spieler.h">
+      <Filter>Quelldateien\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Spielfeld.h">
+      <Filter>Quelldateien\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Feld.h">
+      <Filter>Quelldateien\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Heimatfeld.h">
+      <Filter>Quelldateien\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Ruhefeld.h">
+      <Filter>Quelldateien\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Hut.h">
+      <Filter>Quelldateien\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Wuerfel.h">
+      <Filter>Quelldateien\HelpClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Farbe.h">
+      <Filter>Quelldateien\HelpClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="FangDenHut.h">
+      <Filter>Quelldateien\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="SpielerController.h">
+      <Filter>Quelldateien\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Quelldateien\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="LaufbahnView.h">
+      <Filter>Quelldateien\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="StartbereichView.h">
+      <Filter>Quelldateien\Display</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
